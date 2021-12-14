@@ -1,15 +1,19 @@
-# My SLStatus fork from Suckless
+# Sheol's build of DWM
 
-### Preferably install in the root directory.
-`https://github.com/demosheol/slstatus.git`
+## Installation for newbs
 
-### Fonts
 ```
-ttf-hack (URxvt)
+git clone https://github.com/demosheol/slstatus
+cd dwm
+sudo make clean install
+```
+
+## Fonts
+
+```
 ttf-dejavu
 ttf-liberation
 ttf-droid
 ttf-inconsolata
-ttf-inconsolata-g (?)
+otf-font-awesome-5-free
 ```
-
