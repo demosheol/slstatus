@@ -4,7 +4,7 @@
 
 ```
 git clone https://github.com/demosheol/slstatus
-cd dwm
+cd slstatus
 sudo make clean install
 ```
 
