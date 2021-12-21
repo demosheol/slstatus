@@ -15,5 +15,4 @@ ttf-dejavu
 ttf-liberation
 ttf-droid
 ttf-inconsolata
-otf-font-awesome-5-free
 ```
