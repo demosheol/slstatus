@@ -70,7 +70,7 @@ static const struct arg args[] = {
 //	{ ram_perc, "[RAM  %s%%]   ", NULL    },
 //	{ datetime, "%s",           " [%d.%m.%y]    [%H:%M]" },
 
-	{ disk_perc, " HD %s%% | ",   "/"   }, 
+	{ disk_perc, " HDD %s%% | ",   "/"   }, 
 	{ ram_perc, "RAM %s%% | ", NULL },
 	{ cpu_perc, "CPU %s%% | ", NULL },
 	{ datetime, "%s ",	"%d.%m.%Y %H:%M" },
