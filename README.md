@@ -1,4 +1,4 @@
-# Sheol's build of DWM
+# Sheol's build of SLStatus
 
 ## Installation for newbs
 
