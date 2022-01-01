@@ -65,14 +65,9 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-//	{ disk_perc, "[HD  %s%%]   ",  "/"    },
-//	{ cpu_perc, "[CPU  %s%%]   ", NULL    },
-//	{ ram_perc, "[RAM  %s%%]   ", NULL    },
-//	{ datetime, "%s",           " [%d.%m.%y]    [%H:%M]" },
-
-	{ disk_perc, " HDD %s%% | ",   "/"   }, 
+	{ run_command, " VOL %s | ", "amixer sget Master | awk -F\"[][]\" '/%/ { print $2 }' | head -n1" },
+	{ disk_perc, "HDD %s%% | ",   "/"   }, 
 	{ ram_perc, "RAM %s%% | ", NULL },
 	{ cpu_perc, "CPU %s%% | ", NULL },
 	{ datetime, "%s ",	"%d.%m.%Y %H:%M" },
-
 };
