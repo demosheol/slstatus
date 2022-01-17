@@ -66,7 +66,7 @@ static const char unknown_str[] = "n/a";
 static const struct arg args[] = {
 	/* function format          argument */
 	//{ wifi_perc, "W: (%3s%% on ", "wlp8s0" },
-	{ netspeed_rx, " %sB/s |", "enp2s0" },
+	{ netspeed_rx, " %sB/s | ", "enp2s0" },
 	{ run_command, "VOL %s | ", "amixer sget Master | awk -F\"[][]\" '/%/ { print $2 }' | head -n1" },
 	{ disk_perc, "HDD %s%% | ",   "/"   }, 
 	{ ram_perc, "RAM %s%% | ", NULL },
